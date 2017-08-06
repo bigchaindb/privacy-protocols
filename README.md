@@ -70,7 +70,7 @@ On the other side, other cryptocurrencies like [Zcash][zcash:tech] and [Monero][
 For every technology listed, *scalar quantities* are **verifiable**, but only for Zcash and Monero **confidentiality and verifiability** of the transaction is maintained.
 
 ### Text assets
-Bitcoin does not natively support extra text data, but [hacks are possible][bitcoin:text-assets]. Protocols have been built on top of the Bitcoin `OP_RETURN`, the [SPOOL Protocol][spool] is a prime example of that.
+Bitcoin does not natively support extra text data, but [hacks are possible][bitcoin:text-asset]. Protocols have been built on top of the Bitcoin `OP_RETURN`, the [SPOOL Protocol][spool] is a prime example of that.
 
 Monero [payment ID][monero:payment-id] is an optional 32 bytes field that can be used to store additional information on a payment.
 
