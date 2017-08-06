@@ -93,12 +93,12 @@ Bitcoin has shown that arbitrary text can be stored. Since `JSON` is a subset of
 
 Considering the limited space in Monero `payment ID`, a `JSON` object is too large to be stored.
 
-BigchainDB is able to store native `JSON` structures, and everything that has been said for Bitcoins in the previous section apply.
+BigchainDB is able to store native `JSON` structures, and everything that has been said for Bitcoins in the previous section applies.
 
-Ethereum can store arbitrary text, and everything that has been said in the previous section apply.
+Ethereum can store arbitrary text, and everything that has been said in the previous section applies.
 
 ### Binary assets
-A binary blob can be encoded as text using different encodings. Everything said in the previous section apply.
+A binary blob can be encoded as text using different encodings. Everything said in the previous section applies.
 
 Please keep in mind that storing binary data in a blockchain is inefficient and expensive.
 
