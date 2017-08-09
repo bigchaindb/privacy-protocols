@@ -17,7 +17,7 @@ This paper focuses on exploring the questions of secure and private data sharing
 
 
 ## Disclaimer
-This paper compares how different cryptocurrencies handle transactions confidentiality. The focus is on how **information** is stored in the transaction itself, not on mining, block ordering, block chaining, nor how a decentralized network is bizantine-fault tolerant.
+This paper compares how different cryptocurrencies handle transactions confidentiality. The focus is on how **information** is stored in the transaction itself, not on mining, block ordering, block chaining, nor how a decentralized network is Byzantine fault tolerant.
 
 The cryptocurrencies featured in this paper are:
 
