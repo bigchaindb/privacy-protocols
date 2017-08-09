@@ -175,7 +175,7 @@ In case of symmetric encryption, this is usually achieved using a [(Hashed) Mess
 
 
 ### Data Integrity
-Data Integrity makes sure that tempered messages are detectable.
+Data Integrity makes sure that tampered messages are detectable.
 TK: elaborate more
 
 ### End to End encryption
