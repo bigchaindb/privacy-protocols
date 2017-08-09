@@ -245,7 +245,7 @@ Now that we have an overview on how TLS and cipher suite work, we can dig into d
 All transactions in a blockchain network are digitally signed with the public key(s) of the issuer(s), hence each message is authenticated per se. TLS has a set of cipher suites that allow us to disable authentication. In this case, if for the parties involved a signed message suffice, they can ignore extra certificates and move on.
 
 ### Extending support to X.509 certificates
-Still, it might be useful for some use cases to enable `X.509` certificates. Most of the *old* web still rely on them, so why not using them?
+Still, it might be useful for some use cases to enable `X.509` certificates. Most of the *old* web still relies on them, so why not use them?
 
 ## On symmetric encryption
 Since 2008, Intel and AMD CPUs provide an extension to the x86 instruction set architecture called **Advanced Encryption Standard Instruction Set**.
