@@ -341,7 +341,7 @@ This step can be skipped if stake is not involved.
 ```json
 {
   "cipher": {
-    "stake_id": "<the actual stake she will lose if she reveals the payload>"
+    "stake_id": "<the actual stake he will lose if he is sharing garbage>"
   }
 }
 ```
