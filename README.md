@@ -147,7 +147,7 @@ The system described in this paper wants to provide several guarantees for the e
 
 
 ### Proof of Sharing
-BigchainDB is a general purpose blockchain database, and does not constrain users to any specific kind of (`JSON`) assets. Therefore, a generic approach is preferred. From our knowledge, there is no crypto system that can guarantee both **verifiability and confidentiality** of generic asset. **Confidentiality** is still achievable by classic encryption protocols. But if we drop **verifiability** how do we make sure players in the will system cooperate?
+BigchainDB is a general purpose blockchain database, and does not constrain users to any specific kind of (`JSON`) assets. Therefore, a generic approach is preferred. From our knowledge, there is no crypto system that can guarantee both **verifiability and confidentiality** of generic asset. **Confidentiality** is still achievable by classic encryption protocols. But if we drop **verifiability** how do we make sure players in the system will cooperate?
 
 Introducing **Proof of Sharing**. Proof of Sharing is an optimistic approach that allows cooperating actors to have frictionless and secure exchange of data. Let's say *Alice* wants to access some private data owned by *Bob*. The interaction between them is the following (technical details will be discussed throughout this paper):
 
