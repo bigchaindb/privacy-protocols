@@ -19,7 +19,7 @@ This paper focuses on exploring the questions of secure and private data sharing
 ## Disclaimer
 This paper compares how different cryptocurrencies handle transactions confidentiality. The focus is on how **information** is stored in the transaction itself, not on mining, block ordering, block chaining, nor how a decentralized network is Byzantine fault tolerant.
 
-This paper should not be relied on for legal advice on what data can be shared or how it can be shared. Different jurisdictions have different requirements for the collection, storage, processing, and sharing of personal data. 
+This paper should not be relied on for legal advice on what data can be shared or how it can be shared. Different jurisdictions have different requirements for the collection, storage, processing, and sharing of personal data.
 
 The cryptocurrencies featured in this paper are:
 
@@ -135,7 +135,7 @@ Combining **confidentiality and verifiability** would require running a classifi
 
 
 # Sharing encrypted assets
-In this section we analyze how an exchange of encrypted asset is initiated and managed, and its properties are.
+In this section we analyze how an exchange of encrypted asset is initiated and managed, and what its properties are.
 
 
 ## Properties of the system
@@ -167,7 +167,7 @@ The important part is the **handshake** between *Alice* and *Bob*. Here the bloc
 
 Alas, finding the culprit is not enough, especially when they are anonymous. To properly deter malicious actors, a **stake** is added to the **handshake**. The stake can be kept secret between parties, and revealed when a conflict occurs. By using [crypto conditions][cc:draft] combinatory logic, *Alice* and *Bob* can create a threshold condition `n-of-m`, where `m` defines the third parties involved that can eventually release the funds to the injured party.
 
-**Note: a stake is not a requirement, but it adds another level of protection to the transaction. If the identity of the parties is known, then the dispute can be resolved in other ways, like the legal system. However, this may be less efficient than stake-based resolution.**
+**Note: a stake is not a requirement, but it adds another level of protection to the transaction. If the identity of the parties is known, then the dispute can be resolved in other ways, such as the legal system. However, this may be less efficient than stake-based resolution.**
 
 
 ### Authentication
@@ -245,7 +245,7 @@ Now that we have an overview on how TLS and cipher suite work, we can dig into d
 
 
 ## On authentication
-All transactions on a blockchain network are digitally signed with the public key(s) of the issuer(s), so each message is authenticated *per se*. TLS has a set of cipher suites that allow us to disable authentication. In this case, if a signed message satisfies the parties involved, they can ignore extra certificates and move on.
+All transactions on a blockchain network are digitally signed with the signing key(s) of the issuer(s), so each message is authenticated *per se*. TLS has a set of cipher suites that allow us to disable authentication. In this case, if a signed message satisfies the parties involved, they can ignore extra certificates and move on.
 
 ### Extending support to X.509 certificates
 It might be useful for some use cases to enable `X.509` certificates. Most of the *old* web still relies on them, so why not use them?
@@ -279,7 +279,7 @@ Ideally, Alice and Bob will pass the same transaction around, creating an audit 
 
 
 ## Step 0: Bob publishes metadata about his payload
-Bob has few private assets he is willing to share under certain conditions. For each asset, he creates a transaction and push it to the network. Those transactions contain metadata about the assets. We haven't defined a schema for metadata yet, but the schema will be expressive enough to cover these use cases and more:
+Bob has few private assets he is willing to share under certain conditions. For each asset, he creates a transaction and pushes it to the network. Those transactions contain metadata about the assets. We haven't defined a schema for metadata yet, but the schema will be expressive enough to cover these use cases and more:
 
 - sell an asset for a fixed price
 - give read permission to an asset for a time interval
